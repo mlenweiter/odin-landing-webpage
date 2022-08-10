@@ -1,51 +1,63 @@
-.top-section {
-    display: flex;
-    background-color: #1F2937;
-}
-
-.header {
-    align-items: center;
-    justify-content: center;
-    padding-top: 10px;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: 900;
-    color: #F9FAF8;
-    margin-right: 100px;
-    margin-left: 10px;
-
-}
-
-.links {
-    font-size: 18px;
-    margin-left: 30px;
-}
-
-.links a {
-    margin: 10px;
-    color: #E5E7EB;
-
-}
-
-a:link { text-decoration: none; }
-
 body {
     display: flex;
     flex-direction: column;
     align-items: stretch;
 }
 
+
+.top-section {
+    background-color: #1F2937;
+    padding: 0px;
+}
+
+.header {
+    padding-top: 10px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-bottom: 80px;
+    justify-content: space-between;
+
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;  
+
+}
+
+.links {
+    font-size: 18px;
+    margin-left: auto;
+
+}
+
+.links a {
+    color: #E5E7EB;
+    margin-left: 10px;
+
+}
+
+a:link { text-decoration: none; }
+
 .section-1 {
     background-color: #1F2937;
     display: flex;
-    padding: 100px;
-    justify-content: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: stretch;
+    padding-bottom: 50px;
+}
+
+.section-1 .content {
+    width: 400px;
+}
+
+.section-1 img {
+    margin-left: auto;
 }
 
 .section-3 {
@@ -57,7 +69,7 @@ body {
 
 .title {
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 1000;
     color: #F9FAF8;
     margin-bottom: 10px;
 }
@@ -78,15 +90,7 @@ html {
     background-color: #1F2937;
 }
 
-.section-1 .content {
-    padding-left: 100px;
-    width: 400px;
-    margin-right: 50px;
-    flex: none
-}
-
 img {
-    margin-right: 100px;
     max-width: fit-content;
     max-height: fit-content;
     width: fit-content;
@@ -98,10 +102,6 @@ button {
     border-radius: 5px;
     border-color: #3882F6;
     padding: 5px 5px;
-}
-
-button a {
     color: #F9FAF8;
     font-weight: 900;
-    
 }
