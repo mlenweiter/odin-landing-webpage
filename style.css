@@ -102,6 +102,10 @@ button {
     border-radius: 5px;
     border-color: #3882F6;
     padding: 5px 5px;
-    color: #F9FAF8;
+    
     font-weight: 900;
+}
+
+button a {
+    color: #F9FAF8;
 }
