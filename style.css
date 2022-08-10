@@ -109,3 +109,28 @@ button {
 button a {
     color: #F9FAF8;
 }
+
+.keynotes {
+    display: flex;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.keynotes > div {
+    width: 100%;
+    height: 25%;
+}
+
+.keynote_img {
+    width: 100px;
+    height: 100px;
+    max-inline-size: 100px;
+}
+
+.keynote_img a img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
